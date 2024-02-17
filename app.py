@@ -14,6 +14,7 @@ def index():
 def live():
     game = GameOfLife()
     game.form_new_generation()
+    game.count += 1
     return render_template('live.html', game=game)
 
 if __name__ == '__main__':

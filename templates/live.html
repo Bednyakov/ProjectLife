@@ -5,11 +5,13 @@
     <a class="btn btn-info refresh" href="{{ url_for('live') }}">Сгенерировать поколение</a>
 
     <table class="world">
-        {% for i in game.world %}
+        {% for i in range(game.world|length) %}
             <tr>
-                {% for j in i %}
-                    {% if j == 1 %}
+                {% for j in range(game.world[i]|length) %}
+                    {% if game.world[i][j] == 1 %}
                         <td class="cell living-cell"></td>
+                    {% elif game.old_world[i][j] == 1 and game.world[i][j] == 0 %}
+                        <td class="cell dead-cell"></td>
                     {% else %}
                         <td class="cell"></td>
                     {% endif %}
@@ -19,6 +21,11 @@
 
 
     </table>
+{% endblock %}
+
+{%  block footer %}
+    <h2>Счетчик поколений:</h2>
+    <div class="counter">{{ game.count }}</div>
 {% endblock %}
 
 {% block scripts %}
