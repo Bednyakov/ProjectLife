@@ -8,6 +8,6 @@ ___
 2. pip install -r requirements.txt
 3. Запустить файл app.py
 
-Подробнее о виртуальном окружении: https://bednyakov.ru/virtualnye-okruzhenija/
-Шпаргалка по работе с Git: https://bednyakov.ru/shpargalka-po-git-na-russkom-s-primerami-i-opisaniem-komand/
+- Подробнее о виртуальном окружении: https://bednyakov.ru/virtualnye-okruzhenija/
+- Шпаргалка по работе с Git: https://bednyakov.ru/shpargalka-po-git-na-russkom-s-primerami-i-opisaniem-komand/
    
