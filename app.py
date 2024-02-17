@@ -12,7 +12,8 @@ def index():
 @app.route('/live')
 @app.route('/live/')
 def live():
-    game = GameOfLife(25, 25)
+    game = GameOfLife()
+    game.form_new_generation()
     return render_template('live.html', game=game)
 
 if __name__ == '__main__':
