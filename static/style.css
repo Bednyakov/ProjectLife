@@ -51,8 +51,8 @@ a, table {
     font-family: "Book Antiqua", "Arial";
     background: aliceblue;
     font-size: 30px;
-    border: 1px solid indigo;
-    border-radius: 50%;
+    #border: 1px solid indigo;
+    #border-radius: 50%;
 }
 
 
