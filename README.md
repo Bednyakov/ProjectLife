@@ -11,7 +11,7 @@ ___
 - Подробнее о виртуальном окружении: https://bednyakov.ru/virtualnye-okruzhenija/
 - Шпаргалка по работе с Git: https://bednyakov.ru/shpargalka-po-git-na-russkom-s-primerami-i-opisaniem-komand/
 
-![sample](/static/sample.gif "Образец")
+![sample](/static/sample.GIF "Образец")
 
 
    
